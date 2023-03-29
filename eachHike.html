@@ -28,14 +28,14 @@
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script> 
+    <script src="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.js"></script>
     <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.8.1/firebase-ui-auth.css" />
 
     <!-------------------------------------------->
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
     <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="./styles/style.css"> -->
+    <link rel="stylesheet" href="./styles/style.css">
 
 </head>
 
@@ -53,7 +53,8 @@
         <h1><span id="hikeName">this hike</span></h1>
         <div class="position-relative">
             <img class="hike-img responsive" src="" alt="Hike photo">
-            <button class="btn btn-primary position-absolute bottom-0 end-0 m-3" onclick="saveHikeDocumentIDAndRedirect()">Write Review</button>
+            <button class="btn btn-primary position-absolute bottom-0 end-0 m-3"
+                onclick="saveHikeDocumentIDAndRedirect()">Write Review</button>
         </div>
     </div>
 
@@ -68,20 +69,20 @@
     </div>
 
     <template id="reviewCardTemplate">
-            <div class="card bg-secondary">
-                <img class="card-img-top">
-                <div class="card-body bg-light">
-                    <h5 class="title">placeholder</h5>
-                    <p class="time">placeholder</p>
-                    <p class="level">placeholder</p>
-                    <p class="season">placeholder</p>
-                    <p class="scrambled">placeholder</p>
-                    <p class="flooded">placeholder</p>
-                    <br>
-                    <p class="description">This card has supporting text below as a natural lead-in to additional content.
-                    </p>
-                </div>
+        <div class="card bg-secondary">
+            <img class="card-img-top">
+            <div class="card-body bg-light">
+                <h5 class="title">placeholder</h5>
+                <p class="time">placeholder</p>
+                <p class="level">placeholder</p>
+                <p class="season">placeholder</p>
+                <p class="scrambled">placeholder</p>
+                <p class="flooded">placeholder</p>
+                <br>
+                <p class="description">This card has supporting text below as a natural lead-in to additional content.
+                </p>
             </div>
+        </div>
     </template>
 
     <!-- our own footer goes here-->

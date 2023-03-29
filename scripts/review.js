@@ -1,7 +1,5 @@
-
-
-
-var hikeDocID = localStorage.getItem("hikeDocID");    //visible to all functions on this page
+var hikeDocID = localStorage.getItem("hikeDocID");
+console.log(hikeDocID)
 
 function getHikeName(id) {
     db.collection("hikes")

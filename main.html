@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>My BCIT Project</title>
+    <title>Jimmy's Comp1800 Demos</title>
     <meta name="comp1800 template" content="My 1800 App">
 
     <!------------------------>
@@ -34,7 +34,7 @@
     <!-------------------------------------------->
     <!-- Other libraries and styles of your own -->
     <!-------------------------------------------->
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- <link rel="stylesheet" href="./styles/style.css"> -->
 
 </head>
@@ -51,13 +51,14 @@
     <!-- stuff -->
     <div class="container-fluid bg-light text-dark p-5">
         <div class="container bg-light p-5">
-            <h1 class="display-4">Good morning, <span id="name-goes-here">Name</span></h1>
-            <hr>
-            <p>Quote of the day: <span id="quote-goes-here"></span></p>
+            <h1 class="display-4">
+                Good morning, <span id="name-goes-here">Name</span>
+            </h1>
+            <hr />
+            <p>Quote of the day:<span id="quote-goes-here"></span></p>
         </div>
     </div>
-    
-    <!--BOOTSTRAP demo09-->
+
     <div class="container">
         <h1>Some popular hikes</h1>
         <!-- Here is the container for cards  -->
@@ -67,7 +68,7 @@
         </div>
     </div>
 
-        <!-- Templates for general use, not displayed -->
+    <!-- Templates for general use, not displayed -->
     <template id="hikeCardTemplate">
         <div class="card py-2 mx-2" style="width: 18rem">
             <img class="card-image card-img-top" src=" ..." alt="..." />
@@ -80,6 +81,7 @@
                     bulk of the card's content.
                 </p>
                 <a class="btn btn-primary card-href">Read more ...</a>
+                <i class="material-icons">bookmark_border</i>
             </div>
         </div>
     </template>
@@ -94,9 +96,7 @@
     <script src="./scripts/firebaseAPI_TEAM99.js"></script>
     <script src="./scripts/skeleton.js"></script>
     <script src="./scripts/main.js"></script>
-    <script src="./scripts/script.js"></script>
-
-    
+    <!-- <script src="./scripts/script.js"></script> -->
 
 </body>
 
